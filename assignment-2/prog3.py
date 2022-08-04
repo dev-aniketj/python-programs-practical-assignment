@@ -2,6 +2,6 @@ def myCountry(name="India"):
     print("I'm from", name + ".")
 
 
-myCountry("Canda")
+myCountry("Canada")
 myCountry("USA")
 myCountry()

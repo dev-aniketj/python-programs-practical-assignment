@@ -1,7 +1,7 @@
 # prime func and evenOdd func
 
 def evenOdd(num):
-    if (num % 2 == 0):
+    if num % 2 == 0:
         print("and even number.")
     else:
         print("and odd number.")
@@ -10,11 +10,11 @@ def evenOdd(num):
 def prime(num):
     flag = False
     for i in range(2, num):
-        if (num % i == 0):
+        if num % i == 0:
             break
         else:
             flag = True
-    if (flag):
+    if flag:
         print(num, "is prime", end=' ')
     else:
         print(num, "is not prime", end=' ')

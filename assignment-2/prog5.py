@@ -1,3 +1,7 @@
-test_list = [4, 6, 6, 4, 2, 2, 4, 8, 5, 8]
-dict_list = {i: list(str(i) * test_list.count(i)) for i in test_list}
-print(dict_list)
+from collections import defaultdict
+
+lst = [4, 6, 6, 4, 2, 2, 4, 8, 5, 8]
+res = defaultdict(list)
+for i in lst:
+    res[i].append(i)
+print(dict(res))

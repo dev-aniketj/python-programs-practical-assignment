@@ -12,7 +12,7 @@ print(name.startswith('Ani'))  # True
 
 # 4.
 list1 = ['how', 'are', 'you', '?']
-print('->'.join(list1))  # how are you ?
+print('\t\t'.join(list1))  # how are you ?
 
 # 5.
 sentence = "my name is aniket"
@@ -29,3 +29,5 @@ print('hello'.center(10, '*'))
 # 8.
 sentence2 = '###Hello##World###'
 print(sentence2.lstrip('#'))  # Hello##World###
+print(sentence2.rstrip('#'))
+print(sentence2.strip('#'))
